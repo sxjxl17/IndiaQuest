@@ -726,7 +726,7 @@ function AuthModal({ open, mode, setMode, onClose, onLogin, onSignup, error }) {
         </button>
 
         <div style={{ display: "flex", alignItems: "center", marginBottom: 6 }}>
-          <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 50, width: "auto", display: "block" }} />
+          <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 40, width: "auto", display: "block" }} />
         </div>
         <h2 style={{ fontFamily: "Sora, sans-serif", fontSize: 21, fontWeight: 700, margin: "14px 0 4px" }}>
           {mode === "login" ? "Welcome back" : "Create your account"}
@@ -813,7 +813,7 @@ function Navbar({ view, setView, t, lang, setLang, mode, setMode, query, setQuer
     }}>
       <div style={{ maxWidth: 1320, margin: "0 auto", padding: "14px 24px", display: "flex", alignItems: "center", gap: 24 }}>
         <div onClick={() => setView("home")} style={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-          <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 50, width: "auto", display: "block" }} />
+          <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 40, width: "auto", display: "block" }} />
         </div>
 
         <div style={{ display: "flex", gap: 4, flex: 1 }} className="b360-desktop-nav">
@@ -2252,7 +2252,7 @@ function Footer({ setView }) {
       <div style={{ maxWidth: 1320, margin: "0 auto", padding: "50px 24px 30px", display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 30 }}>
         <div style={{ maxWidth: 320 }}>
           <div style={{ display: "flex", alignItems: "center", marginBottom: 14 }}>
-            <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 50, width: "auto", display: "block" }} />
+            <img src={LOGO_SRC} alt="IndiaQuest" style={{ height: 40, width: "auto", display: "block" }} />
           </div>
           <p style={{ color: C.textSub, fontSize: 13, lineHeight: 1.6 }}>Discover India. Travel with confidence. IndiaQuest.in connects discovery, planning, trust and safety with a live experience dashboard \u2014 across 20 destinations nationwide.</p>
         </div>
